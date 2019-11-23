@@ -1,0 +1,251 @@
+.bg-custom-light {
+	background-color: #fff;
+}
+
+body {
+	position: relative;
+	padding-top: 50px;
+}
+
+section {
+	padding-bottom: 50px;
+}
+
+
+
+/* Navigation */
+nav {
+	border-bottom: 1px solid #999;
+}
+
+.navbar-toggler {
+	color: black;
+}
+
+
+/* Jumbotron */
+.jumbotron {
+	background: url("../img/jumbotron-bg.jpg") no-repeat;
+	background-size: cover;
+}
+
+.jumbotron .container {
+	padding-top: 100px;
+	padding-bottom: 40px;
+}
+
+#welcome-section {
+	height: 100vh;
+}
+
+#welcome-section img {
+	width: 250px;
+	height: 250px;
+	margin-bottom: 50px;
+}
+
+.shadow {
+	-webkit-box-shadow: 0px 0px 3px 2px #141414;  
+	-moz-box-shadow:    0px 0px 3px 2px #141414;  
+	box-shadow:         0px 0px 3px 2px #141414;  
+}
+
+#heading-hr {
+	margin-top: 35px;
+	overflow: visible; /* For IE */
+	padding: 0;
+	border: none;
+	border-top: medium double #fff;
+	color: #333;
+	text-align: center;
+}
+
+
+/* Project Gallery */
+#projects .container {
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+.other-hr {
+	margin-top: 35px;
+	overflow: visible; /* For IE */
+	padding: 0;
+	border: none;
+	border-top: medium double #141414;
+	color: #333;
+	text-align: center;
+}
+
+#projects .row {
+	padding-top: 30px;
+}
+
+.card {
+	padding: 0;
+	margin-bottom: 30px;
+	transition: 0.15s ease-in-out;
+	box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+}
+
+.card:hover {
+	transform: translateY(-10px) scale(1.02);
+}
+
+.card img {
+	border: 1px solid grey;
+}
+
+.card a {
+	text-decoration: none;
+	color: #111;
+}
+
+/* Contacts */
+#contacts {
+	background: url("../img/contacts-bg1.jpeg");
+	background-size: cover;
+	padding-top: 60px;
+}
+
+form {
+	padding-top: 20px;
+}
+
+textarea.form-control {
+	height: 135px;
+}
+
+.submit {
+	margin-top: 20px;
+	font-size: 1.2em;
+	width: 120px;
+	letter-spacing: 0.1em;
+}
+
+
+
+/* Footer */
+footer {
+	background-color: #141414;
+	color: #fff;
+	padding: 10px 0px;
+}
+
+footer ul {
+	padding-top: 10px;
+}
+
+
+
+/* Text */
+h1,
+h2 {
+	text-transform: uppercase;
+	font-family: 'Raleway';
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+h2 {
+	font-size: 2.5em;
+	color: #141414;
+	padding-bottom: 0px;
+}
+
+h3 {
+	font-size: 1.2em;
+	font-family: 'Raleway';
+}
+
+p {
+	font-family: 'Lato';
+	color: #141414;
+}
+
+
+#welcome-section p.below-heading {
+	font-size: 1.25em;
+}
+
+nav a.nav-link {
+	font-family: 'Source Sans Pro';
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #141414;
+}
+
+#welcome-section h1,
+#welcome-section p {
+	color: #fff;
+}
+
+#welcome-section h1 {
+	line-height: 0;
+	text-shadow: 0px 0px 6px rgba(255,255,255,0.7);	
+	padding-top: 10px;
+}
+
+.card-title {
+	padding: 10px 20px;
+	text-align: center;
+	margin: 0;
+}
+
+label {
+	font-size: 1.1em;
+}
+
+.label-shadow {
+	text-shadow: 0px 0px 6px rgba(0,0,0,0.3);
+}
+
+footer p {
+	margin: 0;
+	color: #888;
+	font-size: 0.9em;
+}
+
+/* Font Awesome Icons */
+nav .fa-stack-1x {
+	color: #141414;
+}
+
+nav .fa-stack-2x {
+	color: #141414;
+}
+
+footer .fa-stack-1x {
+	color: #fff;
+}
+
+footer .fa-stack-2x {
+	color: #fff;
+}
+
+
+/* Media Queries */
+@media (min-width: 576px) { 
+
+	/* Text */
+	h3 {
+		font-size: 1em;
+	}
+}
+
+@media (min-width: 768px) { 
+
+	/* Contacts */
+	textarea.form-control {
+			height: 210px;
+	}
+
+	/* Footer */
+	footer p {
+		font-size: 0.9em;
+	}
+
+}
